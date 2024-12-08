@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+ <head>
+ <title> proste obliczenia</title>
+ <meta charset="utf-8">
+ </head>
+<body>
+<div style="color:green;font-size:52px;">
+ <script language="JavaScript">
+var D1=prompt("dzień1=","");
+var G1=prompt("godzina1=","");
+var D2=prompt("dzień2=","");
+var G2=prompt("godzina2=","");
+var sek;
+ var a=parseFloat(D1);
+ var b=parseFloat(D2);
+ var c=parseFloat(G1);
+ var d=parseFloat(G2);
+
+ sek=(24*(b-a-1)+24-c+d)*3600;
+ document.write("ilosc sekun pomiedzy "+D2+" i "+G2+" a "+D1+" godzina "+G1+ " = "+sek+"<br>");
+ </script>
+</div>
+
+</body>
+</html>
